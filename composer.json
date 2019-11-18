@@ -1,0 +1,22 @@
+{
+    "name": "popov/magento-magmi-import",
+    "type": "magento-module",
+    "license":"MIT Licence",
+    "description":"Import products and images based on Magmi",
+    "authors":[{
+        "name":"Serhii Popov",
+        "email":"popow.sergiy@gmail.com"
+    }],
+    "extra": {
+        "map": [
+          ["shell/magmi.php", "shell/magmi.php"],
+          ["app/code/local/Popov/Magmi/", "app/code/local/Popov/Magmi/"],
+          ["app/code/local/Popov/Magmi/", "app/code/local/Popov/Magmi/"],
+          ["app/etc/modules/Popov_Magmi.xml", "app/etc/modules/Popov_Magmi.xml"],
+          ["app/etc/modules/Popov_Magmi.xml", "app/etc/modules/Popov_Magmi.xml"],
+          ["app/locale/en_US/template/email/popov_magmi/import_problem_form.html", "app/locale/en_US/template/email/popov_magmi/import_problem_form.html"],
+          ["app/locale/ru_RU/template/email/popov_magmi/import_problem_form.html", "app/locale/ru_RU/template/email/popov_magmi/import_problem_form.html"],
+          ["app/locale/uk_UA/template/email/popov_magmi/import_problem_form.html", "app/locale/uk_UA/template/email/popov_magmi/import_problem_form.html"]
+        ]
+    }
+}
